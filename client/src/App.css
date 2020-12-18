@@ -2,11 +2,11 @@
 
 /*this is the landing page*/
 .cover {
-  background-image: url('https://i.imgur.com/LaqvZvC.jpg');
+  background: blue;
   background-size: 100%;
   height: 100vh;
   background-repeat: no-repeat;
-  color: whitesmoke;
+  color: yellow;
   padding: 5rem;
   font-size: 50px;
   font-family: monospace;
@@ -16,16 +16,15 @@
 .welcome {
   font-size: 125px;
   letter-spacing: 0.05em;
-  background-color: rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  color: white;
+  color: yellow;
   font-weight: bold;
 }
 
 #gitBrewd {
   font-family: monospace;
   letter-spacing: 0.17em;
-  color: whitesmoke;
+  color: yellow;
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
@@ -67,19 +66,21 @@
   width: 110px;
   height: auto;
   display: inline-block;
+  background: blue;
 }
 
 /* End of Landing Page */
 
 /* This is the CSS for Main Page */
 .CoverPhoto {
-  background-image: url('https://i.imgur.com/LaqvZvC.jpg');
+  background: yellow;
   background-size: cover;
   background-repeat: norepeat;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  
 }
 
 .BreweryFinder {
